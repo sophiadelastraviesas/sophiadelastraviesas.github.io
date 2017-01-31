@@ -22,7 +22,7 @@
     },
     "versionFirst": "3.10.4",
     "uniqCompNum": 7,
-    "versionPublish": "3.11.1",
+    "versionPublish": "3.10.4",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
