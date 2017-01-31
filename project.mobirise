@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 6,
+    "uniqCompNum": 7,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -127,7 +127,7 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-5",
+          "_anchor": "msg-box5-6",
           "_params": {
             "imageSize": 50,
             "paddingTop": "3",
@@ -172,8 +172,8 @@
             }
           },
           "title": "Sophia De Las Traviesas",
-          "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
+          "text": "I am a student at Miami Arts Studio. &nbsp;During my free time, I enjoy capturing lifes small moments and sharing them.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#content6-3\" data-toolbar=\"-mbrBtnMove\">Continued..</a>"
         },
         {
           "_inherit": "features4",
@@ -260,7 +260,7 @@
           },
           "title3": "Graphic Designer",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "I am",
+          "caption3": "I am also interested in Graphic Design. I enjoy using my creative side to design and create",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -276,7 +276,7 @@
           },
           "title4": "Dog Sitter",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "I love dogs and would have no problem taking care and playing with them all day.&nbsp;",
+          "caption4": "I love dogs and would have no problem taking care and playing with them all day. I also have a dog so I have experience and know to care for them.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
