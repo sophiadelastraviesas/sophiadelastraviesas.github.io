@@ -129,12 +129,12 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "timeout": 5,
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1308.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -145,10 +145,10 @@
                 "showText": true,
                 "text": "I am a student at Miami Arts Studio.  During my free time, I enjoy capturing lifes small moments and sharing them.",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Continued Biology..</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"index.html#content6-3\" data-toolbar=\"-mbrBtnMove\">Continued Biology..</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=pkhPcgX-qHg",
@@ -176,8 +176,8 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
               }
             ],
-            "fullScreen": false,
-            "bgColor": "#fff",
+            "fullScreen": true,
+            "bgColor": "#000000",
             "showBullets": true
           },
           "_anchor": "slider3-8",
