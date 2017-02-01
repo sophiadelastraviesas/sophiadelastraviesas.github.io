@@ -135,7 +135,7 @@
             "slides": [
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1308.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1324.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
