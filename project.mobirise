@@ -131,14 +131,15 @@
             "autoplay": true,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "timeout": 5,
+            "timeout": "7",
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1500.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
+                "overlayOpacity": "0.5",
                 "contentAlign": "center",
                 "showTitle": true,
                 "title": "Sophia De Las Traviesas",
@@ -146,20 +147,6 @@
                 "text": "I am a student at Miami Arts Studio.  During my free time, I enjoy capturing lifes small moments and sharing them online.",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"index.html#content6-3\" data-toolbar=\"-mbrBtnMove\">Continued Biography..</a>"
-              },
-              {
-                "active": true,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=pkhPcgX-qHg",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "Videography",
-                "showText": true,
-                "text": "Click the button below to see some samples",
-                "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Videography</a>"
               },
               {
                 "active": false,
@@ -174,11 +161,25 @@
                 "text": "Here are some projects I've worked on in Adobe Photoshop.",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"photoshop.html\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=pkhPcgX-qHg",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "Videography",
+                "showText": true,
+                "text": "Click the button below to see some samples",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Videography</a>"
               }
             ],
             "fullScreen": true,
             "bgColor": "#000000",
-            "showBullets": true
+            "showBullets": false
           },
           "_anchor": "slider3-8",
           "articleLayout": false,
