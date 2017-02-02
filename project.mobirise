@@ -127,6 +127,15 @@
             "Theme"
           ],
           "_name": "slider3",
+          "_styles": {
+            "P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
+            },
+            "H2": {
+              "font-size": "60px"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": "0",
@@ -134,7 +143,7 @@
             "timeout": "7",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1500.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -163,18 +172,18 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"photoshop.html\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
               },
               {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
-                "playVideo": true,
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/297-2000x1500.jpg",
+                "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=pkhPcgX-qHg",
                 "overlay": true,
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "Videography",
+                "title": "Photography",
                 "showText": true,
                 "text": "Click the button below to see some samples",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Videography</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Photography</a>"
               }
             ],
             "fullScreen": true,
@@ -182,16 +191,7 @@
             "showBullets": false
           },
           "_anchor": "slider3-8",
-          "articleLayout": false,
-          "_styles": {
-            "P": {
-              "font-family": "'Roboto Condensed', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700"
-            },
-            "H2": {
-              "font-size": "60px"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_inherit": "features4",
