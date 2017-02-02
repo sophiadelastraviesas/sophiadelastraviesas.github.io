@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "photoshop.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -173,7 +173,7 @@
                 "showText": true,
                 "text": "Here are some projects I've worked on in Adobe Photoshop.",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"photoshop.html\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
               }
             ],
             "fullScreen": true,
