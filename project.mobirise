@@ -429,7 +429,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/recreated-rolo-wrapper-2000x1700-800x680.jpg",
-                "image": "@PROJECT_PATH@/assets/images/recreated-rolo-wrapper-2000x1700.jpg",
+                "image": "@PROJECT_PATH@/assets/images/recreated%20rolo%20wrapper-2000x1700.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -449,7 +449,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/record-cover-1-2000x1000-800x400.jpg",
-                "image": "@PROJECT_PATH@/assets/images/record-cover-1-2000x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/record%20cover%201-2000x1000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -459,7 +459,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/iron-man-4-2000x2975-800x1190.jpg",
-                "image": "@PROJECT_PATH@/assets/images/iron-man-4-2000x2975.jpg",
+                "image": "@PROJECT_PATH@/assets/images/iron%20man%20-%204-2000x2975.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -469,7 +469,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/torn-image-fixed-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/torn-image-fixed-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/torn%20image%20fixed-2000x1333.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
@@ -489,7 +489,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/sophia-de-las-traviesas-star-wars-2000x666-800x266.jpg",
-                "image": "@PROJECT_PATH@/assets/images/sophia-de-las-traviesas-star-wars-2000x666.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sophia%20de%20las%20traviesas%20star%20wars-2000x666.jpg",
                 "caption": "Type caption here",
                 "active": false
               }
