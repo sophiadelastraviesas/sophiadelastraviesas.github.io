@@ -183,7 +183,7 @@
                 "showText": true,
                 "text": "Click the button below to see some samples",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Photography.html\" data-toolbar=\"-mbrBtnMove\">Photography</a>"
+                "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Photography.html\" data-toolbar=\"-mbrBtnMove\">Photography</a>"
               }
             ],
             "fullScreen": true,
