@@ -708,8 +708,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1023-800x409.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1023.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fullsizerender-copy-2-2000x1165-800x466.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fullsizerender-copy-2-2000x1165.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -728,6 +728,66 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1328-800x531.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1328.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1328-800x531.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1328.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2-2000x1328-800x531.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-2-2000x1328.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-3-2000x1500.jpg",
                 "caption": "Type caption here",
@@ -738,18 +798,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-4-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-4-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7-2000x1500.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
