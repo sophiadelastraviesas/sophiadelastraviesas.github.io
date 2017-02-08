@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
 
 
@@ -415,66 +415,65 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#ext_menu-0 .hide-buttons .nav-btn {
+#menu-s .hide-buttons .nav-btn {
   display: none !important;
 }
-#ext_menu-0 .navbar-caption {
+#menu-s .navbar-caption {
   color: #ffffff;
 }
-#ext_menu-0 .navbar-toggler {
+#menu-s .navbar-toggler {
   color: #000000;
 }
-#ext_menu-0 .close-icon::before,
-#ext_menu-0 .close-icon::after {
+#menu-s .close-icon::before,
+#menu-s .close-icon::after {
   background-color: #000000;
 }
-#ext_menu-0 .link,
-#ext_menu-0 .dropdown-item {
+#menu-s .link,
+#menu-s .dropdown-item {
   color: #000000;
-  font-family: 'Open Sans', sans-serif;
 }
-#ext_menu-0 .link {
-  font-size: 0.95rem;
+#menu-s .link {
+  font-size: 0.75rem;
 }
-#ext_menu-0 .dropdown-item,
-#ext_menu-0 .nav-dropdown-sm .link {
-  font-size: 1.029rem;
+#menu-s .dropdown-item,
+#menu-s .nav-dropdown-sm .link {
+  font-size: 0.812rem;
 }
-#ext_menu-0 .link:hover,
-#ext_menu-0 .dropdown-item:hover,
-#ext_menu-0 .link:focus,
-#ext_menu-0 .dropdown-item:focus {
+#menu-s .link:hover,
+#menu-s .dropdown-item:hover,
+#menu-s .link:focus,
+#menu-s .dropdown-item:focus {
   color: #c0a375;
 }
-#ext_menu-0 .link[aria-expanded="true"],
-#ext_menu-0 .dropdown-menu {
-  background: #000000;
+#menu-s .link[aria-expanded="true"],
+#menu-s .dropdown-menu {
+  background: #e6e6e6;
 }
-#ext_menu-0 .nav-dropdown-sm .link:focus,
-#ext_menu-0 .nav-dropdown-sm .link:hover,
-#ext_menu-0 .nav-dropdown-sm .dropdown-item:focus,
-#ext_menu-0 .nav-dropdown-sm .dropdown-item:hover {
-  background: #000000!important;
+#menu-s .nav-dropdown-sm .link:focus,
+#menu-s .nav-dropdown-sm .link:hover,
+#menu-s .nav-dropdown-sm .dropdown-item:focus,
+#menu-s .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
 }
-#ext_menu-0 .navbar,
-#ext_menu-0 .nav-dropdown-sm,
-#ext_menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
-#ext_menu-0 .nav-dropdown-sm .dropdown-menu {
-  background: #000000;
+#menu-s .navbar,
+#menu-s .nav-dropdown-sm,
+#menu-s .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-s .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
 }
-#ext_menu-0 .bg-color.transparent .link {
+#menu-s .bg-color.transparent .link {
   color: #000000;
   transition: none;
 }
-#ext_menu-0 .bg-color.transparent.opened .link {
+#menu-s .bg-color.transparent.opened .link {
   transition: color 0.2s ease-in-out;
 }
-#ext_menu-0 .bg-color.transparent.opened .link:hover,
-#ext_menu-0 .bg-color.transparent.opened .link:focus {
+#menu-s .bg-color.transparent.opened .link:hover,
+#menu-s .bg-color.transparent.opened .link:focus {
   color: #c0a375;
 }
-#ext_menu-0 .link[aria-expanded="true"],
-#ext_menu-0 .dropdown-item[aria-expanded="true"] {
+#menu-s .link[aria-expanded="true"],
+#menu-s .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
 #slider3-8 P {
@@ -489,6 +488,9 @@ h6,
 #features7-2 .iconbox {
   background-color: #c0a375;
   border-color: #c0a375;
+}
+#contacts1-4 P {
+  color: #000000;
 }
 
 #ext_menu-9 .hide-buttons .nav-btn {
@@ -553,6 +555,9 @@ h6,
 #ext_menu-9 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#contacts1-a P {
+  color: #000000;
+}
 
 #ext_menu-c .hide-buttons .nav-btn {
   display: none !important;
@@ -616,6 +621,12 @@ h6,
 #ext_menu-c .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#contacts1-d P {
+  color: #000000;
+}
+
+
+
 
 #ext_menu-c .hide-buttons .nav-btn {
   display: none !important;
@@ -681,6 +692,7 @@ h6,
 }
 #header5-l .mbr-section-title {
   color: #000;
+  font-family: 'Slabo 27px', serif;
 }
 #header5-l .mbr-section-lead {
   color: #9c9a9a;
@@ -689,9 +701,15 @@ h6,
 #header3-p .mbr-section-subtitle {
   text-align: center;
 }
+#header3-p H3 {
+  font-family: 'Slabo 27px', serif;
+}
 #header3-q .mbr-section-title,
 #header3-q .mbr-section-subtitle {
   text-align: center;
+}
+#header3-q H3 {
+  font-family: 'Slabo 27px', serif;
 }
 #features7-n .card-subtitle {
   color: #bcbcbc;
@@ -699,4 +717,7 @@ h6,
 #features7-n .iconbox {
   background-color: #ffffff;
   border-color: #ffffff;
+}
+#contacts1-k P {
+  color: #000000;
 }
