@@ -490,6 +490,13 @@ h6,
 #header3-x H3 {
   font-family: 'Open Sans', sans-serif;
 }
+#contacts4-10 P {
+  color: #000000;
+}
+#contacts4-10 UL {
+  color: #000000;
+  text-align: left;
+}
 #contacts1-4 P {
   color: #000000;
 }
