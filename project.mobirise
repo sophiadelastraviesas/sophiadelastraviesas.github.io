@@ -260,8 +260,8 @@
           "_name": "header3",
           "_anchor": "header3-x",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "0",
+            "paddingBottom": "0",
             "bgColor": "#fff",
             "showMeta": true
           },
@@ -319,7 +319,7 @@
                 "active": true
               }
             ],
-            "spacing": 1,
+            "spacing": "1",
             "showText": false,
             "filter": false,
             "bgColor": "#ffffff",
