@@ -563,7 +563,7 @@ h6,
   color: #fff;
 }
 #social-buttons4-17 .mbr-section-title {
-  color: #000000;
+  color: #ffffff;
 }
 #contacts1-u P {
   color: #000000;
@@ -634,7 +634,7 @@ h6,
   color: #fff;
 }
 #social-buttons4-18 .mbr-section-title {
-  color: #000000;
+  color: #ffffff;
 }
 #contacts1-d P {
   color: #000000;
@@ -739,8 +739,79 @@ h6,
   color: #fff;
 }
 #social-buttons4-19 .mbr-section-title {
-  color: #000000;
+  color: #ffffff;
 }
 #contacts1-k P {
+  color: #000000;
+}
+#social-buttons4-1f .mbr-section-title,
+#social-buttons4-1f .btn-social {
+  color: #fff;
+}
+#social-buttons4-1f .mbr-section-title {
+  color: #ffffff;
+}
+#menu-1c .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-1c .navbar-caption {
+  color: #ffffff;
+}
+#menu-1c .navbar-toggler {
+  color: #000000;
+}
+#menu-1c .close-icon::before,
+#menu-1c .close-icon::after {
+  background-color: #000000;
+}
+#menu-1c .link,
+#menu-1c .dropdown-item {
+  color: #000000;
+}
+#menu-1c .link {
+  font-size: 0.75rem;
+}
+#menu-1c .dropdown-item,
+#menu-1c .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-1c .link:hover,
+#menu-1c .dropdown-item:hover,
+#menu-1c .link:focus,
+#menu-1c .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-1c .link[aria-expanded="true"],
+#menu-1c .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-1c .nav-dropdown-sm .link:focus,
+#menu-1c .nav-dropdown-sm .link:hover,
+#menu-1c .nav-dropdown-sm .dropdown-item:focus,
+#menu-1c .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-1c .navbar,
+#menu-1c .nav-dropdown-sm,
+#menu-1c .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1c .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-1c .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu-1c .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-1c .bg-color.transparent.opened .link:hover,
+#menu-1c .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-1c .link[aria-expanded="true"],
+#menu-1c .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#contacts1-1e P {
   color: #000000;
 }
