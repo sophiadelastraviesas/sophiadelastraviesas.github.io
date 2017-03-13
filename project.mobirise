@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "photoshop.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -621,15 +621,15 @@
                 "thumb": "@PROJECT_PATH@/assets/images/torn-image-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/torn-image-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ironman-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ironman-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ironman-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ironman-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -638,8 +638,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/hulk-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/hulk-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hulk-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hulk-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -648,8 +648,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/record-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/record-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/record-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/record-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -658,8 +658,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mpopposter-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mpopposter-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -668,10 +668,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/starwars-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/starwars-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/starwars-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/starwars-1-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ],
             "spacing": "1",
