@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "photoshop.html",
+    "currentPage": "Photography.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -872,8 +872,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1023-800x409.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1023.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/skiing-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/skiing-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -882,8 +882,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/297-2000x1023-800x409.jpg",
-                "image": "@PROJECT_PATH@/assets/images/297-2000x1023.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/santorini-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/santorini-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -892,8 +892,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fullsizerender-copy-2-2000x1023-800x409.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-copy-2-2000x1023.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/trees-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/trees-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -902,10 +902,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fullsizerender-3-2000x1023-800x409.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-3-2000x1023.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/flag-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/flag-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -915,7 +915,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x1327-800x530.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-3-2000x1327.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
