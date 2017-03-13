@@ -905,15 +905,15 @@
                 "thumb": "@PROJECT_PATH@/assets/images/flag-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/flag-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x1327-800x530.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-3-2000x1327.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/naiya-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/naiya-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -922,8 +922,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1327-800x530.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-2000x1327.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pool-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pool-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -932,18 +932,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1328-800x531.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1328.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sam-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sam-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2000x1327-800x530.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-2000x1327.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pool-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pool-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
