@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "Timelapse.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 59,
+    "uniqCompNum": 60,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -538,8 +538,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/back2thefuture-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/back2thefuture-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/back2thefuture-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/back2thefuture-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -548,8 +548,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/clinton-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/clinton-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clinton-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/clinton-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -558,8 +558,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/robot-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/robot-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/robot-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/robot-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -568,8 +568,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/space-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/space-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/space-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/space-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -578,18 +578,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/trump-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/trump-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/starwars-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/starwars-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/trump-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/trump-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -598,8 +588,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rolo-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rolo-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rolo-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/rolo-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -608,8 +598,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/model-1-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/model-1-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -631,7 +621,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/torn-image-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/torn-image-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -671,7 +661,17 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/starwars-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/starwars-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
               }
             ],
             "spacing": "1",
@@ -2156,21 +2156,21 @@
             "Theme"
           ],
           "_name": "social-buttons4",
-          "_anchor": "social-buttons4-1m",
+          "_anchor": "social-buttons4-1n",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#0d111a",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/b09bde04b03aab855ddce0f70212bfe6-2000x1273.jpg",
+            "bgColor": "#0e121e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
             "overlayColor": "#222"
           },
-          "text": "SUBSCRIBE",
-          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>       "
+          "text": "FOLLOW ME",
+          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/dlt.sophia\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
