@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "Photography.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 60,
+    "uniqCompNum": 62,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -148,8 +148,8 @@
             "timeout": "7",
             "slides": [
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/fullsizerender-4-copy-2000x2000.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc-2000x1328.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -178,7 +178,7 @@
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"photoshop.html\" data-toolbar=\"-mbrBtnMove\">Photoshop Projects</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/297-2000x1500.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=pkhPcgX-qHg",
@@ -211,7 +211,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#7fafdd",
+            "bgColor": "#bacee4",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -336,14 +336,14 @@
             "Theme"
           ],
           "_name": "social-buttons1",
-          "_anchor": "social-buttons1-15",
+          "_anchor": "social-buttons1-1o",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#7fafdd",
+            "bgColor": "#bacee4",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -361,6 +361,9 @@
           "_styles": {
             ".mbr-section-title, .btn-social": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#c2d2ec"
             }
           },
           "_tags": [
@@ -374,14 +377,39 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#28324e",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
           "text": "SUBSCRIBE",
-          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\"></span></a>       "
+          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(181, 202, 222);\"></span></a>       "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-1p",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#bacee4",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": ""
         },
         {
           "_tags": [
@@ -935,7 +963,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/sam-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/sam-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -952,8 +980,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x1328-800x531.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-3-2000x1328.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/book-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/book-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -962,8 +990,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2-2000x1328-800x531.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-2-2000x1328.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ap-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ap-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -972,8 +1000,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1327-800x530.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1327.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/plane-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/plane-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -982,10 +1010,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-2-2000x1327-800x530.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-2-2000x1327.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pens-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pens-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
