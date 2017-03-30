@@ -423,15 +423,15 @@ h6,
   color: #ffffff;
 }
 #menu-s .navbar-toggler {
-  color: #000000;
+  color: #ffffff;
 }
 #menu-s .close-icon::before,
 #menu-s .close-icon::after {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 #menu-s .link,
 #menu-s .dropdown-item {
-  color: #000000;
+  color: #ffffff;
 }
 #menu-s .link {
   font-size: 0.75rem;
@@ -448,22 +448,22 @@ h6,
 }
 #menu-s .link[aria-expanded="true"],
 #menu-s .dropdown-menu {
-  background: #e6e6e6;
+  background: #000000;
 }
 #menu-s .nav-dropdown-sm .link:focus,
 #menu-s .nav-dropdown-sm .link:hover,
 #menu-s .nav-dropdown-sm .dropdown-item:focus,
 #menu-s .nav-dropdown-sm .dropdown-item:hover {
-  background: #f7f7f7!important;
+  background: #000000!important;
 }
 #menu-s .navbar,
 #menu-s .nav-dropdown-sm,
 #menu-s .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-s .nav-dropdown-sm .dropdown-menu {
-  background: #ffffff;
+  background: #000000;
 }
 #menu-s .bg-color.transparent .link {
-  color: #000000;
+  color: #ffffff;
   transition: none;
 }
 #menu-s .bg-color.transparent.opened .link {
@@ -483,22 +483,30 @@ h6,
 #slider3-8 H2 {
   font-size: 60px;
 }
+#msg-box8-1s .mbr-section-title,
+#msg-box8-1s p {
+  color: #fff;
+}
 #header3-x .mbr-section-title,
 #header3-x .mbr-section-subtitle {
   text-align: center;
 }
 #header3-x H3 {
   font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
 }
 #social-buttons4-16 .mbr-section-title,
 #social-buttons4-16 .btn-social {
   color: #fff;
 }
 #social-buttons4-16 .mbr-section-title {
-  color: #c2d2ec;
+  color: #ffffff;
 }
 #contacts1-4 P {
-  color: #000000;
+  color: #ffffff;
+}
+#contacts1-4 STRONG {
+  color: #2091d4;
 }
 #menu-t .hide-buttons .nav-btn {
   display: none !important;
