@@ -483,9 +483,17 @@ h6,
 #slider3-8 H2 {
   font-size: 60px;
 }
+#header3-2b .mbr-section-title,
+#header3-2b .mbr-section-subtitle {
+  text-align: center;
+}
 #msg-box8-1s .mbr-section-title,
 #msg-box8-1s p {
   color: #fff;
+}
+#header3-2c .mbr-section-title,
+#header3-2c .mbr-section-subtitle {
+  text-align: center;
 }
 #header3-x .mbr-section-title,
 #header3-x .mbr-section-subtitle {
@@ -495,6 +503,10 @@ h6,
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
 }
+#header3-2a .mbr-section-title,
+#header3-2a .mbr-section-subtitle {
+  text-align: center;
+}
 #social-buttons4-16 .mbr-section-title,
 #social-buttons4-16 .btn-social {
   color: #fff;
@@ -502,11 +514,19 @@ h6,
 #social-buttons4-16 .mbr-section-title {
   color: #ffffff;
 }
+#header3-29 .mbr-section-title,
+#header3-29 .mbr-section-subtitle {
+  text-align: center;
+}
 #contacts1-4 P {
   color: #ffffff;
 }
 #contacts1-4 STRONG {
   color: #2091d4;
+}
+#header3-28 .mbr-section-title,
+#header3-28 .mbr-section-subtitle {
+  text-align: center;
 }
 #menu-1h .hide-buttons .nav-btn {
   display: none !important;

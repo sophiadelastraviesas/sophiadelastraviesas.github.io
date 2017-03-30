@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 76,
+    "uniqCompNum": 85,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -145,7 +145,7 @@
             "autoplay": true,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "timeout": "5",
+            "timeout": "6",
             "slides": [
               {
                 "active": true,
@@ -200,29 +200,24 @@
           "articleLayout": false
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-1t",
+          "_name": "header3",
+          "_anchor": "header3-2b",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2091d4",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": false,
-            "odnoklassniki": false
+            "showMeta": true
           },
-          "text": ""
+          "title": "",
+          "meta": ""
         },
         {
           "_styles": {
@@ -259,29 +254,24 @@
           "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=yBeeglazlwY\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch My Story</a> "
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-14",
+          "_name": "header3",
+          "_anchor": "header3-2c",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2091d4",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": false,
-            "odnoklassniki": false
+            "showMeta": true
           },
-          "text": ""
+          "title": "",
+          "meta": ""
         },
         {
           "_tags": [
@@ -392,29 +382,24 @@
           "allItem": "All"
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-1o",
+          "_name": "header3",
+          "_anchor": "header3-2a",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2091d4",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": false,
-            "odnoklassniki": false
+            "showMeta": true
           },
-          "text": ""
+          "title": "",
+          "meta": ""
         },
         {
           "_inherit": "social-buttons2",
@@ -447,29 +432,24 @@
           "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 32px; color: rgb(39, 170, 224);\"></span></a>       "
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-1p",
+          "_name": "header3",
+          "_anchor": "header3-29",
           "_params": {
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2091d4",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "facebook": false,
-            "twitter": false,
-            "google": false,
-            "vkontakte": false,
-            "odnoklassniki": false
+            "showMeta": true
           },
-          "text": ""
+          "title": "",
+          "meta": ""
         },
         {
           "_tags": [
@@ -516,6 +496,26 @@
           "text1": "<strong>Address</strong><br>4591 sw 158 ct<br>Miami, Florida 33185",
           "text2": "<strong>Contacts</strong><br>\nEmail: sdelastraviesas@miamiartsstudio.com<br>\nPhone: +1 (786) 405 - 6149<br><br>",
           "text3": "<strong>Links</strong><br>\nMAS Website<br><br><br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-28",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#2091d4",
+            "showMeta": false
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016"
         }
       ]
     },
