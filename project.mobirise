@@ -106,7 +106,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-tem-128x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logo-tem-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -432,8 +432,8 @@
           "_name": "social-buttons4",
           "_anchor": "social-buttons4-16",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
@@ -444,7 +444,7 @@
             "overlayColor": "#222"
           },
           "text": "SUBSCRIBE",
-          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(39, 170, 224);\"></span></a>       "
+          "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 32px; color: rgb(39, 170, 224);\"></span></a>       "
         },
         {
           "_tags": [
@@ -499,7 +499,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-tem-128x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logo-tem-128x128.png",
               "width": 128,
               "active": true,
               "link": "index.html",
