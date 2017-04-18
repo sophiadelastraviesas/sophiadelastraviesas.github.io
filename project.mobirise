@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "Premiere.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -34,7 +34,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -283,8 +284,8 @@
               "text-align": "center"
             },
             "H3": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
               "color": "#2091d4"
             }
           },
@@ -392,7 +393,9 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
@@ -412,7 +415,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "SUBSCRIBE",
+          "text": "SUBSCRIBE !",
           "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(39, 170, 224);\"></span></a>       "
         },
         {
@@ -486,7 +489,8 @@
     "photoshop.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Web Page Creator Description"
+        "meta_descr": "Web Page Creator Description",
+        "order": 3
       },
       "components": [
         {
@@ -768,7 +772,9 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
@@ -788,7 +794,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "SUBSCRIBE",
+          "text": "SUBSCRIBE !",
           "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UChvrzJlpFsV3aOCAcBTW-sw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(39, 170, 224);\"></span></a>       "
         },
         {
@@ -862,7 +868,8 @@
     "Photography.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Website Generator Description"
+        "meta_descr": "Website Generator Description",
+        "order": 6
       },
       "components": [
         {
@@ -1160,7 +1167,8 @@
     "Introduction.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Website Creator Description"
+        "meta_descr": "Website Creator Description",
+        "order": 2
       },
       "components": [
         {
@@ -1612,7 +1620,8 @@
     "Videography.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Site Creator Description"
+        "meta_descr": "Site Creator Description",
+        "order": 7
       },
       "components": [
         {
@@ -1795,7 +1804,9 @@
               "color": "#fff"
             },
             ".mbr-section-title": {
-              "color": "#2091d4"
+              "color": "#ffffff",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
@@ -1815,7 +1826,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#222"
           },
-          "text": "SUBSCRIBE",
+          "text": "SUBSCRIBE !",
           "icons": "   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span></a>       "
         },
         {
@@ -1909,7 +1920,8 @@
     "Timelapse.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Web Site Builder Description"
+        "meta_descr": "Web Site Builder Description",
+        "order": 4
       },
       "components": [
         {
@@ -2026,6 +2038,10 @@
           "_styles": {
             ".mbr-section-title, p": {
               "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
             }
           },
           "_tags": [
@@ -2574,7 +2590,8 @@
     "Premiere.html": {
       "settings": {
         "title": "Sophia De Las Traviesas",
-        "meta_descr": "Website Builder Description"
+        "meta_descr": "Website Builder Description",
+        "order": 5
       },
       "components": [
         {
@@ -2712,6 +2729,14 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff",
+              "font-size": "48px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "msg-box5-2o",
           "_params": {
             "imageSize": 50,
@@ -2758,15 +2783,7 @@
           },
           "title": "Imagine Dragon Music Video<br>",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=BsRFIsw7YAA\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch on YouTube</a>",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff",
-              "font-size": "48px",
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=BsRFIsw7YAA\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch on YouTube</a>"
         },
         {
           "_styles": {

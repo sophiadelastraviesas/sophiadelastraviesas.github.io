@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 
 
 
@@ -502,7 +502,7 @@ h6,
   text-align: center;
 }
 #header3-x H3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #2091d4;
 }
 #header3-1u .mbr-section-title,
@@ -515,6 +515,7 @@ h6,
 }
 #social-buttons4-1t .mbr-section-title {
   color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
 #header3-1v .mbr-section-title,
 #header3-1v .mbr-section-subtitle {
@@ -526,6 +527,7 @@ h6,
 #contacts1-u STRONG {
   color: #2091d4;
 }
+
 #menu-t .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -597,6 +599,7 @@ h6,
 }
 #social-buttons4-1y .mbr-section-title {
   color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
 #header3-1z .mbr-section-title,
 #header3-1z .mbr-section-subtitle {
@@ -808,6 +811,7 @@ h6,
 #contacts1-k STRONG {
   color: #2091d4;
 }
+
 #menu-1h .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -878,7 +882,8 @@ h6,
   color: #fff;
 }
 #social-buttons4-24 .mbr-section-title {
-  color: #2091d4;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
 }
 #header3-26 .mbr-section-title,
 #header3-26 .mbr-section-subtitle {
@@ -890,6 +895,7 @@ h6,
 #contacts1-1e STRONG {
   color: #2091d4;
 }
+
 #menu-1h .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -954,6 +960,9 @@ h6,
 #msg-box8-1k .mbr-section-title,
 #msg-box8-1k p {
   color: #fff;
+}
+#msg-box8-1k .mbr-section-title {
+  font-family: 'Oswald', sans-serif;
 }
 #header3-28 .mbr-section-title,
 #header3-28 .mbr-section-subtitle {
