@@ -986,6 +986,8 @@ h6,
   color: #2091d4;
 }
 
+
+
 #menu-2i .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1060,9 +1062,91 @@ h6,
 #header3-2p .mbr-section-subtitle {
   text-align: center;
 }
+#msg-box4-2s H3 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+#header3-2u .mbr-section-title,
+#header3-2u .mbr-section-subtitle {
+  text-align: center;
+}
+#msg-box4-2t H3 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
 #contacts1-2k P {
   color: #ffffff;
 }
 #contacts1-2k STRONG {
+  color: #2091d4;
+}
+#menu-2v .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-2v .navbar-caption {
+  color: #ffffff;
+}
+#menu-2v .navbar-toggler {
+  color: #ffffff;
+}
+#menu-2v .close-icon::before,
+#menu-2v .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-2v .link,
+#menu-2v .dropdown-item {
+  color: #ffffff;
+}
+#menu-2v .link {
+  font-size: 0.75rem;
+}
+#menu-2v .dropdown-item,
+#menu-2v .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#menu-2v .link:hover,
+#menu-2v .dropdown-item:hover,
+#menu-2v .link:focus,
+#menu-2v .dropdown-item:focus {
+  color: #c0a375;
+}
+#menu-2v .link[aria-expanded="true"],
+#menu-2v .dropdown-menu {
+  background: #000000;
+}
+#menu-2v .nav-dropdown-sm .link:focus,
+#menu-2v .nav-dropdown-sm .link:hover,
+#menu-2v .nav-dropdown-sm .dropdown-item:focus,
+#menu-2v .nav-dropdown-sm .dropdown-item:hover {
+  background: #000000!important;
+}
+#menu-2v .navbar,
+#menu-2v .nav-dropdown-sm,
+#menu-2v .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-2v .nav-dropdown-sm .dropdown-menu {
+  background: #000000;
+}
+#menu-2v .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-2v .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-2v .bg-color.transparent.opened .link:hover,
+#menu-2v .bg-color.transparent.opened .link:focus {
+  color: #c0a375;
+}
+#menu-2v .link[aria-expanded="true"],
+#menu-2v .dropdown-item[aria-expanded="true"] {
+  color: #c0a375!important;
+}
+#msg-box4-2y H3 {
+  color: #ffffff;
+}
+#contacts1-2x P {
+  color: #ffffff;
+}
+#contacts1-2x STRONG {
   color: #2091d4;
 }
