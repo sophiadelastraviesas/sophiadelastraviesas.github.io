@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 108,
+    "uniqCompNum": 111,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -2934,7 +2934,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/GrHE7mJslkw",
+              "src": "https://youtu.be/Fda_c3yiGTo",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -2948,6 +2948,26 @@
           "title": "Final Project",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://youtu.be/6Z1EJejKGqM\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch On Youtube</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-30",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#2091d4",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": ""
         },
         {
           "_inherit": "msg-box5",
@@ -2991,7 +3011,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/GrHE7mJslkw",
+              "src": "https://youtu.be/Fda_c3yiGTo",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -3005,6 +3025,83 @@
           "title": "Intro For Showcase",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://youtu.be/GrHE7mJslkw\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch On Youtube</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-31",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#2091d4",
+            "showMeta": true
+          },
+          "title": "",
+          "meta": ""
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "msg-box4-32",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://youtu.be/Fda_c3yiGTo",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Outro For Showcase",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://youtu.be/Fda_c3yiGTo\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch On Youtube</a>"
         },
         {
           "_tags": [

@@ -989,6 +989,7 @@ h6,
 
 
 
+
 #menu-2i .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1075,7 +1076,19 @@ h6,
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
 }
+#header3-30 .mbr-section-title,
+#header3-30 .mbr-section-subtitle {
+  text-align: center;
+}
 #msg-box4-2z H3 {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+#header3-31 .mbr-section-title,
+#header3-31 .mbr-section-subtitle {
+  text-align: center;
+}
+#msg-box4-32 H3 {
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
 }
