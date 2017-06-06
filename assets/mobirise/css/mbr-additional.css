@@ -990,6 +990,7 @@ h6,
 
 
 
+
 #menu-2i .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -1091,6 +1092,22 @@ h6,
 #msg-box4-32 H3 {
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
+}
+#header3-34 .mbr-section-title,
+#header3-34 .mbr-section-subtitle {
+  text-align: center;
+}
+#social-buttons4-33 .mbr-section-title,
+#social-buttons4-33 .btn-social {
+  color: #fff;
+}
+#social-buttons4-33 .mbr-section-title {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+}
+#header3-35 .mbr-section-title,
+#header3-35 .mbr-section-subtitle {
+  text-align: center;
 }
 #contacts1-2k P {
   color: #ffffff;
