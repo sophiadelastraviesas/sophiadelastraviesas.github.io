@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sophia De Las Traviesas - Portfolio",
-    "currentPage": "index.html",
+    "currentPage": "Premiere.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -155,7 +155,7 @@
             "slides": [
               {
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dsc-1-2000x1328.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-2000x1328.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
@@ -318,8 +318,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bubbles-2000x1995-800x798.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bubbles-2000x1995.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -328,20 +328,20 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/snail-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/snail-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/model-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/model-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/back2thefuture-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/back2thefuture-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": true
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/starwars-copy-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/starwars-copy-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
               },
               {
                 "tags": "Animated",
@@ -593,6 +593,16 @@
             "paddingBottom": "1",
             "images": [
               {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/bubbles-2000x1995-800x798.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bubbles-2000x1995.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -603,22 +613,12 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/clinton-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/clinton-1-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
                 "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/robot-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/robot-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/clinton-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/clinton-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -627,8 +627,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/space-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/space-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/hulk-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hulk-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -637,18 +637,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/bubbles-1-2000x1997-800x798.jpg",
-                "image": "@PROJECT_PATH@/assets/images/bubbles-1-2000x1997.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ironman-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ironman-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/trump-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/trump-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mpopposter-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -657,8 +657,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/rolo-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/rolo-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/model-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/model-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -667,8 +667,48 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model-1-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/record-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/record-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/rolo-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/rolo-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/robot-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/robot-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/snail-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/snail-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/space-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/space-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -680,47 +720,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/starwars-copy-2000x2000-800x800.jpg",
                 "image": "@PROJECT_PATH@/assets/images/starwars-copy-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/torn-image-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/torn-image-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ironman-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ironman-1-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/hulk-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/hulk-1-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/record-1-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/record-1-2000x2000.jpg",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -2771,19 +2771,19 @@
           },
           "media": {
             "image": {
-              "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/screen-shot-2017-04-18-at-10-1400x790.png",
+              "src": "@PROJECT_PATH@/assets/images/screen%20shot%202017-04-18%20at%2010-1400x790.png",
               "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "src": "https://www.youtube.com/watch?v=BsRFIsw7YAA",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false
+              "loop": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box5",
@@ -2821,6 +2821,13 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box4-2s",
           "_params": {
             "imageSize": 50,
@@ -2863,14 +2870,7 @@
           },
           "title": "A Thousand Million Reasons Music Video",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=_RSaxRCBCJ8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch On Youtube</a>",
-          "_styles": {
-            "H3": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=_RSaxRCBCJ8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Watch On Youtube</a>"
         },
         {
           "_styles": {
@@ -2934,7 +2934,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/Fda_c3yiGTo",
+              "src": "https://www.youtube.com/watch?v=6Z1EJejKGqM",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -3345,6 +3345,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "msg-box4-2y",
           "_params": {
             "imageSize": "70",
@@ -3387,12 +3392,7 @@
           },
           "title": "Bubbles - Final Project",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Watch On Youtube</a>",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Watch On Youtube</a>"
         },
         {
           "_tags": [
