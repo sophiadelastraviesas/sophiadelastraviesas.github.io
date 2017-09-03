@@ -1,18 +1,52 @@
-(function(){
+(function() {
+    'use strict';
 
-    function getVideoId(url) {
-        if ('false' == url) return false;
-        var result = /(?:\?v=|\/embed\/|\.be\/)([-a-z0-9_]+)/i.exec(url) || /^([-a-z0-9_]+)$/i.exec(url);
-        return result ? result[1] : false;
+    // youtube or vimeo
+    function checkPlayerName(url) {
+        if (url === 'false') return false;
+
+        var result = url.match(/(http:|https:|)\/\/(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com))\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/);
+
+        if (result && /youtube/g.test(result[3])) {
+            return 'youtube';
+        } else if (result && /vimeo/g.test(result[3])) {
+            return 'vimeo';
+        }
+
+        return false;
     }
 
-    function getPreviewUrl(videoId, quality) {
+    // youtube or vimeo
+    function getVideoId(url) {
+        if (url === 'false') return false;
+
+        var result = url.match(/(http:|https:|)\/\/(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com))\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/);
+
+        return result ? result[6] : false;
+    }
+
+    function getYTPreviewUrl(videoId, quality) {
         return 'https://img.youtube.com/vi/' + videoId + '/' +
             (quality || '') + 'default.jpg';
     }
 
-    var getPreviewUrlWithBestQuality = (function(){
-        
+    function getVimeoPreviewUrl(vimeoId, callback) {
+        var request = new XMLHttpRequest();
+        request.open('GET', 'https://vimeo.com/api/v2/video/' + vimeoId + '.json', true);
+        request.onreadystatechange = function() {
+            if (this.readyState === 4) {
+                if (this.status >= 200 && this.status < 400) {
+                    var response = JSON.parse(this.responseText);
+
+                    callback(response[0].thumbnail_large);
+                }
+            }
+        };
+        request.send();
+        request = null;
+    }
+
+    var getYTPreviewUrlWithBestQuality = (function() {
         var cache = {};
 
         return function(id) {
@@ -24,8 +58,8 @@
                     def.reject('Preview image not found.');
                 }
             } else {
-                $('<img>').on('load', function(){
-                    if (120 == (this.naturalWidth || this.width)) {
+                $('<img>').on('load', function() {
+                    if (120 === (this.naturalWidth || this.width)) {
                         // selection of preview in the best quality
                         var file = this.src.split('/').pop();
                         switch (file) {
@@ -46,96 +80,116 @@
                     } else {
                         def.resolve(cache[id] = this.src);
                     }
-                }).attr('src',  getPreviewUrl(id, 'maxres'));
+                }).attr('src', getYTPreviewUrl(id, 'maxres'));
             }
+
             return def;
         };
-
     })();
 
     /*
-     * check for youtube video section and
-     * load videopreview from youtube on add/change event and enable YTPlayer
+     * check for youtube/vimeo video section and
+     * load videopreview from youtube/vimeo on 'add' event and enable YTPlayer/vimeo_player
      * */
-    $(document).on('add.cards change.cards', function(event){
-        
-        if (!$(event.target).hasClass('mbr-slider')) return;
+    if (!$('html').hasClass('is-builder')) {
+        $(document).on('add.cards', function(event) {
+            if (!$(event.target).hasClass('carousel')) return;
+            var isDesktop = $('html').hasClass('desktop');
 
-        var isInit = ('add' == event.type),
-            isDesktop = $('html').hasClass('desktop'),
-            isBuilder = $('html').hasClass('is-builder');
+            $(event.target).outerFind('[data-bg-video-slide]').each(function() {
+                var videoId = getVideoId($(this).attr('data-bg-video-slide'));
+                if (!videoId) return;
 
-        $(event.target).outerFind('[data-bg-video-slide]').each(function(){
+                var $preview = $('<div class="mbr-background-video-preview"></div>').css({
+                    display: 'none',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center'
+                });
 
-            if (!isInit) {
-                $('.mbr-background-video-preview', this).remove();
-            }
-
-            var videoId = getVideoId( $(this).attr('data-bg-video-slide') );
-            if (!videoId) return;
-                
-            var $preview = $('<div class="mbr-background-video-preview"></div>').css({
-                display: 'none',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
-            });
-            
-            $('.mbr-overlay, .container-slide', this).before($preview);
-            
-            getPreviewUrlWithBestQuality(videoId).done(function(url){
-                $preview.css('background-image', 'url("' + url + '")').show();
-            });
-
-            if (isInit && isDesktop && !isBuilder && $.fn.YTPlayer && !$(this).find('.playerBox').length) {
-             
-                var params = eval('(' + ($(this).attr('data-bg-video-slide-params') || '{}') + ')');
-                $('.container-slide', this)
-                    .before('<div class="mbr-background-video"></div>').prev()
-                    .YTPlayer($.extend({
-                        videoURL: videoId,
-                        containment: 'self',
-                        showControls: false,
-                        mute: true
-                    }, params));
-
+                $('.container-slide', this).before($preview);
+                var playerName = checkPlayerName($(this).attr('data-bg-video-slide'));
                 var $overlay = $(this).find('.mbr-overlay');
-                if ($overlay.length) {
-                    $('.YTPOverlay', this).css({
-                        opacity: $overlay.css('opacity'),
-                        backgroundColor: $overlay.css('background-color')
+
+                if (playerName === 'youtube') {
+                    getYTPreviewUrlWithBestQuality(videoId).done(function(url) {
+                        $preview.css('background-image', 'url("' + url + '")').show();
                     });
+
+                    if (isDesktop && $.fn.YTPlayer && !$(this).find('.playerBox').length) {
+                        $('.container-slide', this)
+                            .before('<div class="mbr-background-video"></div>').prev()
+                            .YTPlayer({
+                                videoURL: videoId,
+                                containment: 'self',
+                                showControls: false,
+                                mute: true
+                            });
+
+                        if ($overlay.length) {
+                            $('.YTPOverlay', this).css({
+                                opacity: $overlay.css('opacity'),
+                                backgroundColor: $overlay.css('background-color')
+                            });
+                        }
+
+                        $(this).find('.image_wrapper img').css('opacity', '0');
+                        $(this).find('.image_wrapper .mbr-overlay').css('opacity', '0');
+                    }
+                } else {
+                    getVimeoPreviewUrl(videoId, function(url) {
+                        $preview.css('background-image', 'url("' + url + '")').show();
+                    });
+
+                    if (isDesktop && $.fn.vimeo_player && !$(this).find('.playerBox').length) {
+                        $('.container-slide', this)
+                            .before('<div class="mbr-background-video"></div>').prev()
+                            .vimeo_player({
+                                videoURL: videoId,
+                                containment: 'self',
+                                showControls: false,
+                                mute: true
+                            });
+
+                        if ($overlay.length) {
+                            $('.vimeo_player_overlay', this).css({
+                                opacity: $overlay.css('opacity'),
+                                backgroundColor: $overlay.css('background-color')
+                            });
+                        }
+                    }
                 }
+            });
 
-            }
+            $(event.target).find('.carousel-item iframe').css({
+                transitionProperty: 'opacity',
+                transitionDuration: '1000ms'
+            });
 
-        });
-
-        if (isInit) {
-
-            // pause YTPPlayer in hidden slides, apply some css rules
-            $(this).on('slide.bs.carousel','section.mbr-slider', function(event){
-
-                $(event.target).find('.carousel-item.active .mb_YTPlayer').each(function(){
+            // pause YTPlayer/vimeo_player in hidden slides, apply some css rules
+            $(this).on('slide.bs.carousel', 'section.carousel', function(event) {
+                $(event.target).find('.carousel-item.active .mb_YTPlayer').each(function() {
                     $(this).YTPPause();
                 });
 
-                $(event.target).find('.carousel-item:not(.active) iframe').css('opacity', 0);
+                $(event.target).find('.carousel-item.active .vimeo_player').each(function() {
+                    $(this).v_pause();
+                });
 
+                $(event.target).find('.carousel-item:not(.active) iframe').css('opacity', 0);
             });
 
             // start YTPPlayer in active slides, apply some css rules
-            $(this).on('slid.bs.carousel','section.mbr-slider', function(event){
-                
-                $(event.target).find('.carousel-item.active .mb_YTPlayer').each(function(){
+            $(this).on('slid.bs.carousel', 'section.carousel', function(event) {
+                $(event.target).find('.carousel-item.active .mb_YTPlayer').each(function() {
                     $(this).YTPPlay();
                 });
 
+                $(event.target).find('.carousel-item.active .vimeo_player').each(function() {
+                    $(this).v_play();
+                });
+
                 $(event.target).find('.carousel-item.active iframe').resize().css('opacity', 1);
-
             });
-
-        }
-
-    });
-
+        });
+    }
 })();
