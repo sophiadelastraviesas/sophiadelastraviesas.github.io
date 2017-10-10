@@ -1696,6 +1696,20 @@ body {
   padding-bottom: 15px;
   background-color: #232323;
 }
+.cid-qxFeYnQxfO {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #c1c1c1;
+}
+.cid-qxFeZvvBLD {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
+.cid-qxFgv3K0ZT {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .cid-qu72m1vUOK {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -1710,7 +1724,7 @@ body {
 .cid-qu72YNV26w {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #ffffff;
 }
 .cid-qu72YNV26w .media-container-row {
   flex-direction: column;
@@ -1766,7 +1780,10 @@ body {
   word-break: break-word;
 }
 .cid-qu72YNV26w .media-container-row .mbr-text {
-  color: #cccccc;
+  color: #232323;
+}
+.cid-qu72YNV26w foot-menu-item {
+  color: #232323;
 }
 .cid-qx0lSovNbR .navbar {
   background: #ffffff;
@@ -2186,10 +2203,15 @@ body {
   font-size: 96px;
   color: #149dcc;
 }
+.cid-qxhTzvHb18 {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #232323;
+}
 .cid-qu72YNV26w {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #ffffff;
 }
 .cid-qu72YNV26w .media-container-row {
   flex-direction: column;
@@ -2245,7 +2267,10 @@ body {
   word-break: break-word;
 }
 .cid-qu72YNV26w .media-container-row .mbr-text {
-  color: #cccccc;
+  color: #232323;
+}
+.cid-qu72YNV26w foot-menu-item {
+  color: #232323;
 }
 .cid-qx0mQ4Fcqi .navbar {
   background: #ffffff;
@@ -2725,7 +2750,10 @@ body {
   word-break: break-word;
 }
 .cid-qu72YNV26w .media-container-row .mbr-text {
-  color: #cccccc;
+  color: #232323;
+}
+.cid-qu72YNV26w foot-menu-item {
+  color: #232323;
 }
 .cid-qx0mYdStz6 .navbar {
   background: #ffffff;
@@ -3149,7 +3177,7 @@ body {
 .cid-qu72YNV26w {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #ffffff;
 }
 .cid-qu72YNV26w .media-container-row {
   flex-direction: column;
@@ -3205,5 +3233,8 @@ body {
   word-break: break-word;
 }
 .cid-qu72YNV26w .media-container-row .mbr-text {
-  color: #cccccc;
+  color: #232323;
+}
+.cid-qu72YNV26w foot-menu-item {
+  color: #232323;
 }
